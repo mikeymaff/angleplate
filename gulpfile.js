@@ -20,10 +20,10 @@ return gulp.src('app/less/*.less')
 gulp.task('scripts', function() {
 return gulp.src('app/js/*.js')
 .pipe(concat('all.js'))
-.pipe(gulp.dest('dist'))
+.pipe(gulp.dest('app/scripts'))
 .pipe(rename('all.min.js'))
 .pipe(uglify())
-.pipe(gulp.dest('dist'));
+.pipe(gulp.dest('app/scripts'));
 });
 
 gulp.task('images', function() {
