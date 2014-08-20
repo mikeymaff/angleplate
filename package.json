@@ -1,0 +1,20 @@
+{
+  "name": "angleplate",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-cache": "^0.2.1",
+    "gulp-concat": "^2.3.4",
+    "gulp-imagemin": "^1.0.0",
+    "gulp-less": "^1.3.5",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^0.3.1"
+  }
+}
